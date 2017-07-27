@@ -1,149 +1,124 @@
 # frontend-crib
 Тут будет описание
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <link rel="icon" type="image/png" href="img/favicon.png">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Топовые материалы по фронтенду, на русском языке.">
-  <meta name="keywords" content="html, css, javascript, grid, fonts, svg, flexbox, бэм">
-  <meta name="author" content="Vald3r">
-  <!-- place for fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/mobile-first.css">
-  <!-- <script async src="js/google-analytics.js"></script> -->
-  <!-- <script async src="js/yandex-metrika.js"></script> -->
-</head>
-<body>
 
   <!-- ========== HEADER ========== -->
 
-  <header class="header">
-    <div class="container">
-      <nav class="header-nav">
-        <ul>
-          <li>
-            <a href="index.html" target="_blank" class="active">Home</a>
-          </li>
-          <li>
-            <a href="https://github.com/vald3r" target="_blank">Git</a>
-          </li>
-          <li>
-            <a href="https://codepen.io/Vald3r/" target="_blank">Codepen</a>
-          </li>
-          <li>
-            <a href="projects.html" target="_blank">Work</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <ul>
+    <li>
+      <a href="index.html" target="_blank" class="active">Home</a>
+    </li>
+    <li>
+      <a href="https://github.com/vald3r" target="_blank">Git</a>
+    </li>
+    <li>
+      <a href="https://codepen.io/Vald3r/" target="_blank">Codepen</a>
+    </li>
+    <li>
+      <a href="projects.html" target="_blank">Work</a>
+    </li>
+  </ul>
 
   <!-- ========== Содержание ========== -->
 
-  <div class="container">
-    <h2><small>Краткое содержание:</small></h2>
-    <ul class="list">
-      <li>
-        <a href="#start">
-          С чего начать.
-        </a>
-      </li>
-      <li>
-        <a href="#articles">
-          Статьи.
-        </a>
-      </li>
-      <li>
-        <a href="#flexbox">
-          Flexbox
-        </a>
-      </li>
-      <li>
-        <a href="#grid">
-          Grid Layout
-        </a>
-      </li>
-      <li>
-        <a href="#codeguides">
-          Кодгайды
-        </a>
-      </li>
-      <li>
-        <a href="#progressive-enhancement">
-          Прогрессивное улучшение
-        </a>
-      </li>
-      <li>
-        <a href="#fonts">
-          Шрифты
-        </a>
-      </li>
-      <li>
-        <a href="#svg">
-          SVG
-        </a>
-      </li>
-      <li>
-        <a href="#mobile-first">
-          Mobile First
-        </a>
-      </li>
-      <li>
-        <a href="#media-queries">
-          Медиа запросы
-        </a>
-      </li>
-      <li>
-        <a href="#bem">
-          БЭМ
-        </a>
-      </li>
-      <li>
-        <a href="#git">
-          Git
-        </a>
-      </li>
-      <li>
-        <a href="#podcasts">
-          Подкасты
-        </a>
-      </li>
-      <li>
-        <a href="#books">
-          Литература
-        </a>
-      </li>
-      <li>
-        <a href="#useful">
-          Полезности
-        </a>
-      </li>
-      <li>
-        <a href="#gulp">
-          Gulp
-        </a>
-      </li>
-      <li>
-        <a href="#webpack">
-          Webpack
-        </a>
-      </li>
-      <li>
-        <a href="#minification">
-          Минификация
-        </a>
-      </li>
-      <li>
-        <a href="#ide">
-          IDE
-        </a>
-      </li>
-    </ul>
-  </div>
+  <h2><small>Краткое содержание:</small></h2>
+  <ul>
+    <li>
+      <a href="#start">
+        С чего начать.
+      </a>
+    </li>
+    <li>
+      <a href="#articles">
+        Статьи.
+      </a>
+    </li>
+    <li>
+      <a href="#flexbox">
+        Flexbox
+      </a>
+    </li>
+    <li>
+      <a href="#grid">
+        Grid Layout
+      </a>
+    </li>
+    <li>
+      <a href="#codeguides">
+        Кодгайды
+      </a>
+    </li>
+    <li>
+      <a href="#progressive-enhancement">
+        Прогрессивное улучшение
+      </a>
+    </li>
+    <li>
+      <a href="#fonts">
+        Шрифты
+      </a>
+    </li>
+    <li>
+      <a href="#svg">
+        SVG
+      </a>
+    </li>
+    <li>
+      <a href="#mobile-first">
+        Mobile First
+      </a>
+    </li>
+    <li>
+      <a href="#media-queries">
+        Медиа запросы
+      </a>
+    </li>
+    <li>
+      <a href="#bem">
+        БЭМ
+      </a>
+    </li>
+    <li>
+      <a href="#git">
+        Git
+      </a>
+    </li>
+    <li>
+      <a href="#podcasts">
+        Подкасты
+      </a>
+    </li>
+    <li>
+      <a href="#books">
+        Литература
+      </a>
+    </li>
+    <li>
+      <a href="#useful">
+        Полезности
+      </a>
+    </li>
+    <li>
+      <a href="#gulp">
+        Gulp
+      </a>
+    </li>
+    <li>
+      <a href="#webpack">
+        Webpack
+      </a>
+    </li>
+    <li>
+      <a href="#minification">
+        Минификация
+      </a>
+    </li>
+    <li>
+      <a href="#ide">
+        IDE
+      </a>
+    </li>
+  </ul>
+
 
   <!-- ========== MAIN ========== -->
 
@@ -288,548 +263,548 @@
       </li>
     </ul>
 
-    <h2 id="articles">Статьи</h2>
-    <ul>
-      <li>
-        <a href="http://prgssr.ru/development/9-nedoocenivaemyh-vozmozhnostej-css.html" target="_blank" title="9 недооцененных возможностей CSS">
-          9 недооцененных возможностей CSS.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles-css/impossible-pseudos.html" target="_blank" title="Псевдоэлементы, которых не может быть">
-          Псевдоэлементы, которых не может быть.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://htmlacademy.ru/blog/115-always-use-a-label" target="_blank" title="Всегда используйте label">
-          Всегда используйте label.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://ru.bem.info/forum/1130/" target="_blank" title="Минимизация классов в HTML">
-          Минимизация классов в HTML.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://isqua.ru/blog/2017/05/21/artgorbunov-typography/" target="_blank" title="Статьи Артёма Горбунова про типографику и вёрстку">
-          Статьи Артёма Горбунова про типографику и вёрстку.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://nicothin.pro/" target="_blank" title="Блог Николая Громова о веб-разработке и фотографии">
-          Блог Николая Громова о веб-разработке и фотографии.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/312022/" target="_blank" title="Каково оно учить JavaScript в 2016">
-          Каково оно учить JavaScript в 2016.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/312422/" target="_blank" title="Создавайте хорошие таблицы">
-          Создавайте хорошие таблицы.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://prgssr.ru/development/alternativnyj-tekst-dlya-izobrazhenij.html" target="_blank" title="Альтернативный текст для изображений">
-          Альтернативный текст для изображений.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://kizu.ru/fun/conditions-for-css-variables/" target="_blank" title="Условия для CSS-переменных">
-          Условия для CSS-переменных.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://htmlacademy.ru/blog/64-about-normalize-css" target="_blank" title="О normalize.css">
-          О normalize.css
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://prgssr.ru/development/peremennye-osnova-arhitektury-css.html" target="_blank" title="Переменные как основа архитектуры CSS при работе с препроцессорами">
-          Переменные как основа архитектуры CSS при работе с препроцессорами.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/275539/" target="_blank" title="Почему до сих пор повсеместно не используется HTTPS?">
-          Почему до сих пор повсеместно не используется HTTPS?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/about-native-css-variables.html" target="_blank" title="Почему я в восторге от «родных» CSS-переменных">
-          Почему я в восторге от «родных» CSS-переменных.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/upravlenie-zagruzkoj-css-s-pomoshhyu-polzovatelskix-svojstv.html" target="_blank" title="Управление загрузкой CSS с помощью пользовательских свойств">
-          Управление загрузкой CSS с помощью пользовательских свойств.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles-css/background-clip-use-cases.html" target="_blank" title="Свойство background-clip и его применения">
-          Свойство background-clip и его применения.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/kratkij-obzor-object-fit-i-object-position.html" target="_blank" title="Краткий обзор «object-fit» и «object-position»">
-          Краткий обзор «object-fit» и «object-position».
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/selectel/blog/278167/" target="_blank" title="HTTP/2: готовимся к переходу">
-          HTTP/2: готовимся к переходу.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/278655/" target="_blank" title="Кризис ожирения сайтов">
-          Кризис ожирения сайтов.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/lyubovnoe-pismo-k-jquery.html" target="_blank" title="Любовное письмо к jQuery">
-          Любовное письмо к jQuery.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://simonenko.su/8725324958/for-what-i-love-coffeescript" target="_blank" title="За что я люблю CoffeeScript">
-          За что я люблю CoffeeScript.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/na-osvoenie-react-mne-potrebovalas-vsego-nedelya-a-chem-vy-xuzhe.html" target="_blank" title="На освоение React мне потребовалась всего неделя, а чем вы хуже?">
-          На освоение React мне потребовалась всего неделя, а чем вы хуже?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://frontender.info/estimating-a-front-end-web-dev-job/" target="_blank" title="Оценка задач фронтендера">
-          Оценка задач фронтендера (сайт временно не доступен).
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://prgssr.ru/development/avtomatizaciya-regressionnogo-testirovaniya-css-2016.html" target="_blank" title="Автоматизация регрессионного тестирования CSS">
-          Автоматизация регрессионного тестирования CSS.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://frontender.info/css-modules-part-1-need/" target="_blank" title="Что такое CSS-модули и зачем они нам?">
-          Что такое CSS-модули и зачем они нам? (сайт временно не доступен)
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://events.yandex.ru/lib/talks/1520/" target="_blank" title="Семантика или смерть">
-          Семантика или смерть.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://webref.ru/layout/magic-of-css" target="_blank" title="Магия CSS">
-          Магия CSS.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/otladka-css.html" target="_blank" title="Отладка CSS">
-          Отладка CSS.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://frontender.info/whats-wrong-with-jquery-and-bootstrap/" target="_blank" title="jQuery и Bootstrap: расставляем точки над «i»">
-          jQuery и Bootstrap: расставляем точки над «i». (сайт временно не доступен)
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/semanticheskij-css.html" target="_blank" title="Семантический CSS">
-          Семантический CSS.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/ponimanie-semantiki.html" target="_blank" title="Понимание семантики">
-          Понимание семантики.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://github.com/yoksel/common-words" target="_blank" title="Слова, часто используемые в CSS-классах">
-          Слова, часто используемые в CSS-классах.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/vecssti-s-polej/modul-generiruemogo-kontenta-css3-obnovilsya-spustya-13-let.html" target="_blank" title="Модуль генерируемого контента CSS3 обновился спустя 13 лет">
-          Модуль генерируемого контента CSS3 обновился спустя 13 лет.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/regressivnye-veb-prilozheniya.html" target="_blank" title="Регрессивные веб-приложения">
-          Регрессивные веб-приложения.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/tinkoff/blog/303580/" target="_blank" title="Как мы разрабатываем новый фронтенд Tinkoff.ru">
-          Как мы разрабатываем новый фронтенд Tinkoff.ru
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/303918/" target="_blank" title="Опрос: насколько строго вы следуете стандартам и лучшим практикам на фронтенде?">
-          Опрос: насколько строго вы следуете стандартам и лучшим практикам на фронтенде?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/vecssti-s-polej/html5-0-uxodit-v-proshloe.html" target="_blank" title="HTML5.0 уходит в прошлое">
-          HTML5.0 уходит в прошлое.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://web-standards.ru/articles/path-of-tutor/" target="_blank" title="Путь наставника">
-          Путь наставника.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://web-standards.ru/articles/check-it-before-you-wreck-it/" target="_blank" title="Не проверив HTML5-кода, не суйся в воду">
-          Не проверив HTML5-кода, не суйся в воду — с Майком™ Смитом.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://prgssr.ru/development/oformlenie-modalnyh-okon.html" target="_blank" title="Оформление модальных окон">
-          Оформление модальных окон.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/css-izolyaciya.html" target="_blank" title="CSS-изоляция">
-          CSS-изоляция.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/yandex/blog/307064/" target="_blank" title="Делать ли мобильную версию?">
-          Делать ли мобильную версию?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://kizu.ru/issues/cursor-pointer/" target="_blank" title="Правильный курсор на активных элементах">
-          Правильный курсор на активных элементах.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://tonsky.livejournal.com/307980.html" target="_blank" title="Сказка о потерянном времени">
-          Сказка о потерянном времени.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/308308/" target="_blank" title="Пишите меньше кода">
-          Пишите меньше кода, блин.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/309076/" target="_blank" title="Недоступный веб: как мы развели такой бардак">
-          Недоступный веб: как мы развели такой бардак.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://prgssr.ru/development/sposoby-smeny-poryadka-vyvoda-elementov-s-pomoshyu-css.html" target="_blank" title="Способы смены порядка вывода элементов с помощью CSS">
-          Способы смены порядка вывода элементов с помощью CSS.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/mailru/blog/309212/" target="_blank" title="Frontend: Разработка и поддержка">
-          Frontend: Разработка и поддержка.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/309318/" target="_blank" title="4 вида утечек памяти в JavaScript и как с ними бороться">
-          4 вида утечек памяти в JavaScript и как с ними бороться.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://kizu.ru/blog/styling-inline-code/" target="_blank" title="Оформление строчных блоков кода">
-          Оформление строчных блоков кода.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/vecssti-s-polej/novye-statusy-html5-1-i-svg2.html" target="_blank" title="Новые статусы HTML5.1 и SVG2">
-          Новые статусы HTML5.1 и SVG2.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/google/blog/308498/" target="_blank" title="Air Berlin: реализация Progressive Web App">
-          Air Berlin: реализация Progressive Web App.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/google/blog/310454/" target="_blank" title="Секреты Progressive Web Apps: часть первая">
-          Секреты Progressive Web Apps: часть первая.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/311920/" target="_blank" title="Может, хватит уже поливать грязью CSS на конференциях разработчиков?">
-          Может, хватит уже поливать грязью CSS на конференциях разработчиков?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles-css/understanding-border-image.html" target="_blank" title="Еще раз про border-image">
-          Еще раз про border-image.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2F28d8ab6ebd3d" target="_blank" title="Доступность сайтов для самых маленьких">
-          Доступность сайтов для самых маленьких.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://prgssr.ru/development/kak-otravit-polzovatelya-s-mobilnym.html" target="_blank" title="Как отравить мобильного пользователя">
-          Как отравить мобильного пользователя.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles/matematika-css-shlyuzov.html" target="_blank" title="Математика CSS-шлюзов">
-          Математика CSS-шлюзов.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://tanalin.com/blog/2016/11/div-dl-dt-dd/" target="_blank" title="DIV официально разрешён внутри DL">
-          DIV официально разрешён внутри DL.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://prgssr.ru/development/grid-fleksboks-i-vyravnivanie-blokov-nasha-novaya-sistema-raskladki.html" target="_blank" title="Грид, флексбокс и выравнивание блоков">
-          Грид, флексбокс и выравнивание блоков.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2F7b2ad80f0340" target="_blank" title="Улучшение формы комментариев">
-          Улучшение формы комментариев.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://telegra.ph/AMP-Instant-Articles-Instant-View-whut-11-23" target="_blank" title="AMP, Instant Articles, Instant View, whut?">
-          AMP, Instant Articles, Instant View, whut?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/odnoklassniki/blog/313978/" target="_blank" title="Анимации на GPU: делаем это правильно">
-          Анимации на GPU: делаем это правильно.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/edison/blog/316668/" target="_blank" title="Hype Driven Development">
-          Hype Driven Development.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://prgssr.ru/development/kratkaya-zapis-css-kak-antipattern.html" target="_blank" title="Краткая запись CSS как антипаттерн">
-          Краткая запись CSS как антипаттерн.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/articles-css/pravilnye-kontrolnye-tochki-v-css.html" target="_blank" title="На 100% правильный способ делать контрольные точки в CSS">
-          На 100% правильный способ делать контрольные точки в CSS.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://medium.com/@ABatickaya" target="_blank" title="Переводы и статьи Алёны Батицкой на Medium">
-          Переводы и статьи Алёны Батицкой на Medium.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/316978/" target="_blank" title="Dear JavaScript">
-          Dear JavaScript.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css.yoksel.ru/a11y-for-logotypes/" target="_blank" title="Логотип не отвечает или временно недоступен">
-          Логотип не отвечает или временно недоступен.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://medium.com/web-standards/манифест-а-что-зачем-865e609f6f47" target="_blank" title="Манифест? А? Что? Зачем?">
-          Манифест? А? Что? Зачем?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/319664/" target="_blank" title="Что поправить в верстке перед выпуском в продакшн?">
-          Что поправить в верстке перед выпуском в продакшн?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/faq/displayflow-root-not-clearfix.html" target="_blank" title="Новый display:flow-root — не clearfix, но что это и зачем?">
-          Новый display:flow-root — не clearfix, но что это и зачем?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://medium.com/high-technologies-center/кто-ты-такой-service-worker-9bce3b1201b6" target="_blank" title="Кто ты такой, Service Worker?">
-          Кто ты такой, Service Worker?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://frontender.info/the-power-of-rgba/" target="_blank" title="Сила цветовой CSS-функции rgba">
-          Сила цветовой CSS-функции rgba. (сайт временно недоступен)
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://callbackhell.ru" target="_blank" title="Ад обратных вызовов">
-          Ад обратных вызовов.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://medium.com/@olgabaryshnikova/веб-дизайнеры-начните-верстать-c44fa28b6ad9" target="_blank" title="Веб-дизайнеры, начните верстать!">
-          Веб-дизайнеры, начните верстать!
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/htmlacademy/blog/321498/" target="_blank" title="Как «прокачаться» дизайнеру: советы и полезные ссылки от российских экспертов">
-          Как «прокачаться» дизайнеру: советы и полезные ссылки от российских экспертов.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://medium.com/web-standards/обещание-бургерной-вечеринки-b0ed209809ab" target="_blank" title="Обещание бургерной вечеринки">
-          Обещание бургерной вечеринки.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://medium.com/high-technologies-center/кто-ты-такой-service-worker-9bce3b1201b6" target="_blank" title="Кто ты такой, Service Worker?">
-          Кто ты такой, Service Worker?
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/tricks/tryuk-razdelnye-funkcii-css-transformacii.html" target="_blank" title="Трюк: раздельные функции CSS-трансформации">
-          Трюк: раздельные функции CSS-трансформации.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/html5/nuzhen-li-nam-novyj-zagolovochnyj-element.html" target="_blank" title="Нужен ли нам новый заголовочный элемент? Мы не знаем">
-          Нужен ли нам новый заголовочный элемент? Мы не знаем.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://zmeika.name/2017/03/02/custom-css-properties-basics.html" target="_blank" title="Пользовательские свойства CSS. Основы">
-          Пользовательские свойства CSS. Основы.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/css/metriki-shrifta-line-height-vertical-align.html" target="_blank" title="Неизведанные глубины CSS: метрики шрифта, line-height и vertical-align">
-          Неизведанные глубины CSS: метрики шрифта, line-height и vertical-align.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://css-live.ru/html5/problema-vybora-struktury-dokumenta.html" target="_blank" title="Проблема выбора структуры документа">
-          Проблема выбора структуры документа.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/323876/" target="_blank" title="Правила использования ARIA в HTML">
-          Правила использования ARIA в HTML.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://medium.com/web-standards/реализуем-пуш-уведомления-на-фронтенде-и-бэкенде-9fea70221028" target="_blank" title="Реализуем пуш-уведомления на фронтенде и бэкенде">
-          Реализуем пуш-уведомления на фронтенде и бэкенде.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/post/323790/" target="_blank" title="Асинхронный JavaScript против отложенного">
-          Асинхронный JavaScript против отложенного.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://pepelsbey.net/2012/08/stylish-switch/" target="_blank" title="Модный переключатель">
-          Модный переключатель.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="https://medium.com/devschacht/david-gilbertson-rems-and-ems-and-why-you-probably-dont-need-them-3b2b1e785787" target="_blank" title="Ремы, емы, и почему отказ от них — не проблема">
-          Ремы, емы, и почему отказ от них — не проблема.
-        </a>
-      </li>
-      <br>
-      <li>
-        <a href="http://nicothin.pro/page/css-solutions" target="_blank" title="Советы по написанию современного CSS">
-          Советы по написанию современного CSS.
-        </a>
-      </li>
-    </ul>
+<h2>Статьи</h2>
+<ul>
+  <li>
+    <a href="http://prgssr.ru/development/9-nedoocenivaemyh-vozmozhnostej-css.html" target="_blank" title="9 недооцененных возможностей CSS">
+      9 недооцененных возможностей CSS.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles-css/impossible-pseudos.html" target="_blank" title="Псевдоэлементы, которых не может быть">
+      Псевдоэлементы, которых не может быть.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://htmlacademy.ru/blog/115-always-use-a-label" target="_blank" title="Всегда используйте label">
+      Всегда используйте label.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://ru.bem.info/forum/1130/" target="_blank" title="Минимизация классов в HTML">
+      Минимизация классов в HTML.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://isqua.ru/blog/2017/05/21/artgorbunov-typography/" target="_blank" title="Статьи Артёма Горбунова про типографику и вёрстку">
+      Статьи Артёма Горбунова про типографику и вёрстку.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://nicothin.pro/" target="_blank" title="Блог Николая Громова о веб-разработке и фотографии">
+      Блог Николая Громова о веб-разработке и фотографии.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/312022/" target="_blank" title="Каково оно учить JavaScript в 2016">
+      Каково оно учить JavaScript в 2016.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/312422/" target="_blank" title="Создавайте хорошие таблицы">
+      Создавайте хорошие таблицы.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://prgssr.ru/development/alternativnyj-tekst-dlya-izobrazhenij.html" target="_blank" title="Альтернативный текст для изображений">
+      Альтернативный текст для изображений.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://kizu.ru/fun/conditions-for-css-variables/" target="_blank" title="Условия для CSS-переменных">
+      Условия для CSS-переменных.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://htmlacademy.ru/blog/64-about-normalize-css" target="_blank" title="О normalize.css">
+      О normalize.css
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://prgssr.ru/development/peremennye-osnova-arhitektury-css.html" target="_blank" title="Переменные как основа архитектуры CSS при работе с препроцессорами">
+      Переменные как основа архитектуры CSS при работе с препроцессорами.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/275539/" target="_blank" title="Почему до сих пор повсеместно не используется HTTPS?">
+      Почему до сих пор повсеместно не используется HTTPS?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/about-native-css-variables.html" target="_blank" title="Почему я в восторге от «родных» CSS-переменных">
+      Почему я в восторге от «родных» CSS-переменных.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/upravlenie-zagruzkoj-css-s-pomoshhyu-polzovatelskix-svojstv.html" target="_blank" title="Управление загрузкой CSS с помощью пользовательских свойств">
+      Управление загрузкой CSS с помощью пользовательских свойств.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles-css/background-clip-use-cases.html" target="_blank" title="Свойство background-clip и его применения">
+      Свойство background-clip и его применения.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/kratkij-obzor-object-fit-i-object-position.html" target="_blank" title="Краткий обзор «object-fit» и «object-position»">
+      Краткий обзор «object-fit» и «object-position».
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/selectel/blog/278167/" target="_blank" title="HTTP/2: готовимся к переходу">
+      HTTP/2: готовимся к переходу.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/278655/" target="_blank" title="Кризис ожирения сайтов">
+      Кризис ожирения сайтов.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/lyubovnoe-pismo-k-jquery.html" target="_blank" title="Любовное письмо к jQuery">
+      Любовное письмо к jQuery.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://simonenko.su/8725324958/for-what-i-love-coffeescript" target="_blank" title="За что я люблю CoffeeScript">
+      За что я люблю CoffeeScript.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/na-osvoenie-react-mne-potrebovalas-vsego-nedelya-a-chem-vy-xuzhe.html" target="_blank" title="На освоение React мне потребовалась всего неделя, а чем вы хуже?">
+      На освоение React мне потребовалась всего неделя, а чем вы хуже?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://frontender.info/estimating-a-front-end-web-dev-job/" target="_blank" title="Оценка задач фронтендера">
+      Оценка задач фронтендера (сайт временно не доступен).
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://prgssr.ru/development/avtomatizaciya-regressionnogo-testirovaniya-css-2016.html" target="_blank" title="Автоматизация регрессионного тестирования CSS">
+      Автоматизация регрессионного тестирования CSS.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://frontender.info/css-modules-part-1-need/" target="_blank" title="Что такое CSS-модули и зачем они нам?">
+      Что такое CSS-модули и зачем они нам? (сайт временно не доступен)
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://events.yandex.ru/lib/talks/1520/" target="_blank" title="Семантика или смерть">
+      Семантика или смерть.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://webref.ru/layout/magic-of-css" target="_blank" title="Магия CSS">
+      Магия CSS.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/otladka-css.html" target="_blank" title="Отладка CSS">
+      Отладка CSS.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://frontender.info/whats-wrong-with-jquery-and-bootstrap/" target="_blank" title="jQuery и Bootstrap: расставляем точки над «i»">
+      jQuery и Bootstrap: расставляем точки над «i». (сайт временно не доступен)
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/semanticheskij-css.html" target="_blank" title="Семантический CSS">
+      Семантический CSS.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/ponimanie-semantiki.html" target="_blank" title="Понимание семантики">
+      Понимание семантики.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://github.com/yoksel/common-words" target="_blank" title="Слова, часто используемые в CSS-классах">
+      Слова, часто используемые в CSS-классах.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/vecssti-s-polej/modul-generiruemogo-kontenta-css3-obnovilsya-spustya-13-let.html" target="_blank" title="Модуль генерируемого контента CSS3 обновился спустя 13 лет">
+      Модуль генерируемого контента CSS3 обновился спустя 13 лет.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/regressivnye-veb-prilozheniya.html" target="_blank" title="Регрессивные веб-приложения">
+      Регрессивные веб-приложения.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/tinkoff/blog/303580/" target="_blank" title="Как мы разрабатываем новый фронтенд Tinkoff.ru">
+      Как мы разрабатываем новый фронтенд Tinkoff.ru
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/303918/" target="_blank" title="Опрос: насколько строго вы следуете стандартам и лучшим практикам на фронтенде?">
+      Опрос: насколько строго вы следуете стандартам и лучшим практикам на фронтенде?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/vecssti-s-polej/html5-0-uxodit-v-proshloe.html" target="_blank" title="HTML5.0 уходит в прошлое">
+      HTML5.0 уходит в прошлое.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://web-standards.ru/articles/path-of-tutor/" target="_blank" title="Путь наставника">
+      Путь наставника.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://web-standards.ru/articles/check-it-before-you-wreck-it/" target="_blank" title="Не проверив HTML5-кода, не суйся в воду">
+      Не проверив HTML5-кода, не суйся в воду — с Майком™ Смитом.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://prgssr.ru/development/oformlenie-modalnyh-okon.html" target="_blank" title="Оформление модальных окон">
+      Оформление модальных окон.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/css-izolyaciya.html" target="_blank" title="CSS-изоляция">
+      CSS-изоляция.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/yandex/blog/307064/" target="_blank" title="Делать ли мобильную версию?">
+      Делать ли мобильную версию?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://kizu.ru/issues/cursor-pointer/" target="_blank" title="Правильный курсор на активных элементах">
+      Правильный курсор на активных элементах.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://tonsky.livejournal.com/307980.html" target="_blank" title="Сказка о потерянном времени">
+      Сказка о потерянном времени.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/308308/" target="_blank" title="Пишите меньше кода">
+      Пишите меньше кода, блин.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/309076/" target="_blank" title="Недоступный веб: как мы развели такой бардак">
+      Недоступный веб: как мы развели такой бардак.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://prgssr.ru/development/sposoby-smeny-poryadka-vyvoda-elementov-s-pomoshyu-css.html" target="_blank" title="Способы смены порядка вывода элементов с помощью CSS">
+      Способы смены порядка вывода элементов с помощью CSS.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/mailru/blog/309212/" target="_blank" title="Frontend: Разработка и поддержка">
+      Frontend: Разработка и поддержка.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/309318/" target="_blank" title="4 вида утечек памяти в JavaScript и как с ними бороться">
+      4 вида утечек памяти в JavaScript и как с ними бороться.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://kizu.ru/blog/styling-inline-code/" target="_blank" title="Оформление строчных блоков кода">
+      Оформление строчных блоков кода.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/vecssti-s-polej/novye-statusy-html5-1-i-svg2.html" target="_blank" title="Новые статусы HTML5.1 и SVG2">
+      Новые статусы HTML5.1 и SVG2.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/google/blog/308498/" target="_blank" title="Air Berlin: реализация Progressive Web App">
+      Air Berlin: реализация Progressive Web App.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/google/blog/310454/" target="_blank" title="Секреты Progressive Web Apps: часть первая">
+      Секреты Progressive Web Apps: часть первая.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/311920/" target="_blank" title="Может, хватит уже поливать грязью CSS на конференциях разработчиков?">
+      Может, хватит уже поливать грязью CSS на конференциях разработчиков?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles-css/understanding-border-image.html" target="_blank" title="Еще раз про border-image">
+      Еще раз про border-image.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2F28d8ab6ebd3d" target="_blank" title="Доступность сайтов для самых маленьких">
+      Доступность сайтов для самых маленьких.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://prgssr.ru/development/kak-otravit-polzovatelya-s-mobilnym.html" target="_blank" title="Как отравить мобильного пользователя">
+      Как отравить мобильного пользователя.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles/matematika-css-shlyuzov.html" target="_blank" title="Математика CSS-шлюзов">
+      Математика CSS-шлюзов.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://tanalin.com/blog/2016/11/div-dl-dt-dd/" target="_blank" title="DIV официально разрешён внутри DL">
+      DIV официально разрешён внутри DL.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://prgssr.ru/development/grid-fleksboks-i-vyravnivanie-blokov-nasha-novaya-sistema-raskladki.html" target="_blank" title="Грид, флексбокс и выравнивание блоков">
+      Грид, флексбокс и выравнивание блоков.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2F7b2ad80f0340" target="_blank" title="Улучшение формы комментариев">
+      Улучшение формы комментариев.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://telegra.ph/AMP-Instant-Articles-Instant-View-whut-11-23" target="_blank" title="AMP, Instant Articles, Instant View, whut?">
+      AMP, Instant Articles, Instant View, whut?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/odnoklassniki/blog/313978/" target="_blank" title="Анимации на GPU: делаем это правильно">
+      Анимации на GPU: делаем это правильно.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/edison/blog/316668/" target="_blank" title="Hype Driven Development">
+      Hype Driven Development.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://prgssr.ru/development/kratkaya-zapis-css-kak-antipattern.html" target="_blank" title="Краткая запись CSS как антипаттерн">
+      Краткая запись CSS как антипаттерн.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/articles-css/pravilnye-kontrolnye-tochki-v-css.html" target="_blank" title="На 100% правильный способ делать контрольные точки в CSS">
+      На 100% правильный способ делать контрольные точки в CSS.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://medium.com/@ABatickaya" target="_blank" title="Переводы и статьи Алёны Батицкой на Medium">
+      Переводы и статьи Алёны Батицкой на Medium.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/316978/" target="_blank" title="Dear JavaScript">
+      Dear JavaScript.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css.yoksel.ru/a11y-for-logotypes/" target="_blank" title="Логотип не отвечает или временно недоступен">
+      Логотип не отвечает или временно недоступен.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://medium.com/web-standards/манифест-а-что-зачем-865e609f6f47" target="_blank" title="Манифест? А? Что? Зачем?">
+      Манифест? А? Что? Зачем?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/319664/" target="_blank" title="Что поправить в верстке перед выпуском в продакшн?">
+      Что поправить в верстке перед выпуском в продакшн?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/faq/displayflow-root-not-clearfix.html" target="_blank" title="Новый display:flow-root — не clearfix, но что это и зачем?">
+      Новый display:flow-root — не clearfix, но что это и зачем?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://medium.com/high-technologies-center/кто-ты-такой-service-worker-9bce3b1201b6" target="_blank" title="Кто ты такой, Service Worker?">
+      Кто ты такой, Service Worker?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://frontender.info/the-power-of-rgba/" target="_blank" title="Сила цветовой CSS-функции rgba">
+      Сила цветовой CSS-функции rgba. (сайт временно недоступен)
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://callbackhell.ru" target="_blank" title="Ад обратных вызовов">
+      Ад обратных вызовов.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://medium.com/@olgabaryshnikova/веб-дизайнеры-начните-верстать-c44fa28b6ad9" target="_blank" title="Веб-дизайнеры, начните верстать!">
+      Веб-дизайнеры, начните верстать!
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/htmlacademy/blog/321498/" target="_blank" title="Как «прокачаться» дизайнеру: советы и полезные ссылки от российских экспертов">
+      Как «прокачаться» дизайнеру: советы и полезные ссылки от российских экспертов.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://medium.com/web-standards/обещание-бургерной-вечеринки-b0ed209809ab" target="_blank" title="Обещание бургерной вечеринки">
+      Обещание бургерной вечеринки.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://medium.com/high-technologies-center/кто-ты-такой-service-worker-9bce3b1201b6" target="_blank" title="Кто ты такой, Service Worker?">
+      Кто ты такой, Service Worker?
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/tricks/tryuk-razdelnye-funkcii-css-transformacii.html" target="_blank" title="Трюк: раздельные функции CSS-трансформации">
+      Трюк: раздельные функции CSS-трансформации.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/html5/nuzhen-li-nam-novyj-zagolovochnyj-element.html" target="_blank" title="Нужен ли нам новый заголовочный элемент? Мы не знаем">
+      Нужен ли нам новый заголовочный элемент? Мы не знаем.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://zmeika.name/2017/03/02/custom-css-properties-basics.html" target="_blank" title="Пользовательские свойства CSS. Основы">
+      Пользовательские свойства CSS. Основы.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/css/metriki-shrifta-line-height-vertical-align.html" target="_blank" title="Неизведанные глубины CSS: метрики шрифта, line-height и vertical-align">
+      Неизведанные глубины CSS: метрики шрифта, line-height и vertical-align.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://css-live.ru/html5/problema-vybora-struktury-dokumenta.html" target="_blank" title="Проблема выбора структуры документа">
+      Проблема выбора структуры документа.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/323876/" target="_blank" title="Правила использования ARIA в HTML">
+      Правила использования ARIA в HTML.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://medium.com/web-standards/реализуем-пуш-уведомления-на-фронтенде-и-бэкенде-9fea70221028" target="_blank" title="Реализуем пуш-уведомления на фронтенде и бэкенде">
+      Реализуем пуш-уведомления на фронтенде и бэкенде.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/post/323790/" target="_blank" title="Асинхронный JavaScript против отложенного">
+      Асинхронный JavaScript против отложенного.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://pepelsbey.net/2012/08/stylish-switch/" target="_blank" title="Модный переключатель">
+      Модный переключатель.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="https://medium.com/devschacht/david-gilbertson-rems-and-ems-and-why-you-probably-dont-need-them-3b2b1e785787" target="_blank" title="Ремы, емы, и почему отказ от них — не проблема">
+      Ремы, емы, и почему отказ от них — не проблема.
+    </a>
+  </li>
+  <br>
+  <li>
+    <a href="http://nicothin.pro/page/css-solutions" target="_blank" title="Советы по написанию современного CSS">
+      Советы по написанию современного CSS.
+    </a>
+  </li>
+</ul>
 
     <!-- ========== Flexbox ========== -->
 
@@ -1519,5 +1494,3 @@
     <p>Copyright &copy;2017 Vladimir Marakhovich</p>
     <p>ilove.github@gmail.com</p>
   </footer>
-</body>
-</html>
