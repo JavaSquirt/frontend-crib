@@ -451,5 +451,7 @@
 
 <a href="https://medium.freecodecamp.com/atom-treasures-82a64ac391c">Плагины для Atom.</a>
 
-<p>Copyright &copy; 2017 by Vladimir Marakhovich</p>
-<p>ilove.github@gmail.com</p>
+<hr>
+
+**<p>Copyright &copy; 2017 by Vladimir Marakhovich</p>**
+**<p>ilove.github@gmail.com</p>**
