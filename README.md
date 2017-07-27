@@ -3,10 +3,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <title>Frontend info. HTML, CSS, JavaScript and other...</title>
   <link rel="icon" type="image/png" href="img/favicon.png">
-  <!-- <meta name="google-site-verification" content="Xr39MNyJOeeGSQ7QM-cfbKlRXS_6hdeDF4E37qe1HO4"> -->
-  <!-- <meta name="yandex-verification" content="213a5e4fb918d3d0" /> -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -290,8 +287,6 @@
         </p>
       </li>
     </ul>
-
-    <!-- ========== Articles ========== -->
 
     <h2 id="articles">Статьи</h2>
     <ul>
