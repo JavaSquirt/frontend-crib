@@ -1,5 +1,5 @@
 # frontend-crib
-Тут будет описание
+Тут будет описание (но это не точно)
 
 <h2>С чего начать.<br>
 Подробно. Структурировано. Актуально.</h2>
@@ -18,7 +18,7 @@
 
 <a href="https://htmlacademy.ru">HTML Academy</a> - Категорически рекомендую.
 
-<a href="https://webref.ru">webref.ru</a> - Справочники и руководства.
+<a href="https://webref.ru">webref.ru</a> - Обновлённая версия лучшего справочника всея-руси по HTML, CSS.
 
 <a href="https://codebra.ru">codebra.ru</a> - Курсы по HTML, CSS, JavaScript, PHP, jQuery.
 
@@ -39,189 +39,68 @@
 <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2Fa916de106283">Собеседование.</a> - Что ожидать от собеседования на должность HMTL-Верстальщик/Junior frontend программист.
 
 <h2>Статьи</h2>
-<ul>
-  <li>
-    <a href="http://prgssr.ru/development/9-nedoocenivaemyh-vozmozhnostej-css.html" target="_blank" title="9 недооцененных возможностей CSS">
-      9 недооцененных возможностей CSS.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles-css/impossible-pseudos.html" target="_blank" title="Псевдоэлементы, которых не может быть">
-      Псевдоэлементы, которых не может быть.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://htmlacademy.ru/blog/115-always-use-a-label" target="_blank" title="Всегда используйте label">
-      Всегда используйте label.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://ru.bem.info/forum/1130/" target="_blank" title="Минимизация классов в HTML">
-      Минимизация классов в HTML.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://isqua.ru/blog/2017/05/21/artgorbunov-typography/" target="_blank" title="Статьи Артёма Горбунова про типографику и вёрстку">
-      Статьи Артёма Горбунова про типографику и вёрстку.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://nicothin.pro/" target="_blank" title="Блог Николая Громова о веб-разработке и фотографии">
-      Блог Николая Громова о веб-разработке и фотографии.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://habrahabr.ru/post/312022/" target="_blank" title="Каково оно учить JavaScript в 2016">
-      Каково оно учить JavaScript в 2016.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://habrahabr.ru/post/312422/" target="_blank" title="Создавайте хорошие таблицы">
-      Создавайте хорошие таблицы.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://prgssr.ru/development/alternativnyj-tekst-dlya-izobrazhenij.html" target="_blank" title="Альтернативный текст для изображений">
-      Альтернативный текст для изображений.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://kizu.ru/fun/conditions-for-css-variables/" target="_blank" title="Условия для CSS-переменных">
-      Условия для CSS-переменных.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://htmlacademy.ru/blog/64-about-normalize-css" target="_blank" title="О normalize.css">
-      О normalize.css
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://prgssr.ru/development/peremennye-osnova-arhitektury-css.html" target="_blank" title="Переменные как основа архитектуры CSS при работе с препроцессорами">
-      Переменные как основа архитектуры CSS при работе с препроцессорами.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://habrahabr.ru/post/275539/" target="_blank" title="Почему до сих пор повсеместно не используется HTTPS?">
-      Почему до сих пор повсеместно не используется HTTPS?
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles/about-native-css-variables.html" target="_blank" title="Почему я в восторге от «родных» CSS-переменных">
-      Почему я в восторге от «родных» CSS-переменных.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles/upravlenie-zagruzkoj-css-s-pomoshhyu-polzovatelskix-svojstv.html" target="_blank" title="Управление загрузкой CSS с помощью пользовательских свойств">
-      Управление загрузкой CSS с помощью пользовательских свойств.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles-css/background-clip-use-cases.html" target="_blank" title="Свойство background-clip и его применения">
-      Свойство background-clip и его применения.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles/kratkij-obzor-object-fit-i-object-position.html" target="_blank" title="Краткий обзор «object-fit» и «object-position»">
-      Краткий обзор «object-fit» и «object-position».
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://habrahabr.ru/company/selectel/blog/278167/" target="_blank" title="HTTP/2: готовимся к переходу">
-      HTTP/2: готовимся к переходу.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://habrahabr.ru/post/278655/" target="_blank" title="Кризис ожирения сайтов">
-      Кризис ожирения сайтов.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles/lyubovnoe-pismo-k-jquery.html" target="_blank" title="Любовное письмо к jQuery">
-      Любовное письмо к jQuery.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://simonenko.su/8725324958/for-what-i-love-coffeescript" target="_blank" title="За что я люблю CoffeeScript">
-      За что я люблю CoffeeScript.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles/na-osvoenie-react-mne-potrebovalas-vsego-nedelya-a-chem-vy-xuzhe.html" target="_blank" title="На освоение React мне потребовалась всего неделя, а чем вы хуже?">
-      На освоение React мне потребовалась всего неделя, а чем вы хуже?
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://frontender.info/estimating-a-front-end-web-dev-job/" target="_blank" title="Оценка задач фронтендера">
-      Оценка задач фронтендера (сайт временно не доступен).
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://prgssr.ru/development/avtomatizaciya-regressionnogo-testirovaniya-css-2016.html" target="_blank" title="Автоматизация регрессионного тестирования CSS">
-      Автоматизация регрессионного тестирования CSS.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://frontender.info/css-modules-part-1-need/" target="_blank" title="Что такое CSS-модули и зачем они нам?">
-      Что такое CSS-модули и зачем они нам? (сайт временно не доступен)
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://events.yandex.ru/lib/talks/1520/" target="_blank" title="Семантика или смерть">
-      Семантика или смерть.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://webref.ru/layout/magic-of-css" target="_blank" title="Магия CSS">
-      Магия CSS.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles/otladka-css.html" target="_blank" title="Отладка CSS">
-      Отладка CSS.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="https://frontender.info/whats-wrong-with-jquery-and-bootstrap/" target="_blank" title="jQuery и Bootstrap: расставляем точки над «i»">
-      jQuery и Bootstrap: расставляем точки над «i». (сайт временно не доступен)
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles/semanticheskij-css.html" target="_blank" title="Семантический CSS">
-      Семантический CSS.
-    </a>
-  </li>
-  <br>
-  <li>
-    <a href="http://css-live.ru/articles/ponimanie-semantiki.html" target="_blank" title="Понимание семантики">
+
+<a href="http://prgssr.ru/development/9-nedoocenivaemyh-vozmozhnostej-css.html">9 недооцененных возможностей CSS.</a>
+
+<a href="http://css-live.ru/articles-css/impossible-pseudos.html">Псевдоэлементы, которых не может быть.</a>
+
+<a href="https://htmlacademy.ru/blog/115-always-use-a-label">Всегда используйте label.</a>
+
+<a href="https://ru.bem.info/forum/1130/">Минимизация классов в HTML.</a>
+
+<a href="https://isqua.ru/blog/2017/05/21/artgorbunov-typography/">Статьи Артёма Горбунова про типографику и вёрстку.</a>
+
+<a href="http://nicothin.pro/">Блог Николая Громова о веб-разработке и фотографии.</a>
+
+<a href="https://habrahabr.ru/post/312022/">Каково оно учить JavaScript в 2016.</a>
+
+<a href="https://habrahabr.ru/post/312422/">Создавайте хорошие таблицы.</a>
+
+<a href="http://prgssr.ru/development/alternativnyj-tekst-dlya-izobrazhenij.html">Альтернативный текст для изображений.</a>
+
+<a href="http://kizu.ru/fun/conditions-for-css-variables/">Условия для CSS-переменных.</a>
+
+<a href="https://htmlacademy.ru/blog/64-about-normalize-css">О normalize.css</a>
+
+<a href="http://prgssr.ru/development/peremennye-osnova-arhitektury-css.html">Переменные как основа архитектуры CSS при работе с препроцессорами.</a>
+
+<a href="https://habrahabr.ru/post/275539/">Почему до сих пор повсеместно не используется HTTPS?</a>
+
+<a href="http://css-live.ru/articles/about-native-css-variables.html">Почему я в восторге от «родных» CSS-переменных.</a>
+
+<a href="http://css-live.ru/articles/upravlenie-zagruzkoj-css-s-pomoshhyu-polzovatelskix-svojstv.html">Управление загрузкой CSS с помощью пользовательских свойств.</a>
+
+<a href="http://css-live.ru/articles-css/background-clip-use-cases.html">Свойство background-clip и его применения.</a>
+
+<a href="http://css-live.ru/articles/kratkij-obzor-object-fit-i-object-position.html">Краткий обзор «object-fit» и «object-position».</a>
+
+<a href="https://habrahabr.ru/company/selectel/blog/278167/">HTTP/2: готовимся к переходу.</a>
+
+<a href="https://habrahabr.ru/post/278655/">Кризис ожирения сайтов.</a>
+
+<a href="http://css-live.ru/articles/lyubovnoe-pismo-k-jquery.html">Любовное письмо к jQuery.</a>
+
+<a href="http://simonenko.su/8725324958/for-what-i-love-coffeescript">За что я люблю CoffeeScript.</a>
+
+<a href="http://css-live.ru/articles/na-osvoenie-react-mne-potrebovalas-vsego-nedelya-a-chem-vy-xuzhe.html">На освоение React мне потребовалась всего неделя, а чем вы хуже?</a>
+
+<a href="https://frontender.info/estimating-a-front-end-web-dev-job/">Оценка задач фронтендера.</a>
+
+<a href="http://prgssr.ru/development/avtomatizaciya-regressionnogo-testirovaniya-css-2016.html">Автоматизация регрессионного тестирования CSS.</a>
+
+<a href="https://frontender.info/css-modules-part-1-need/">Что такое CSS-модули и зачем они нам?</a>
+
+<a href="https://events.yandex.ru/lib/talks/1520/">Семантика или смерть.</a>
+
+<a href="https://webref.ru/layout/magic-of-css">Магия CSS.</a>
+
+<a href="http://css-live.ru/articles/otladka-css.html">Отладка CSS.</a>
+
+<a href="https://frontender.info/whats-wrong-with-jquery-and-bootstrap/">jQuery и Bootstrap: расставляем точки над «i».</a>
+
+<a href="http://css-live.ru/articles/semanticheskij-css.html">Семантический CSS.</a>
+
+<a href="http://css-live.ru/articles/ponimanie-semantiki.html" target="_blank" title="Понимание семантики">
       Понимание семантики.
     </a>
   </li>
