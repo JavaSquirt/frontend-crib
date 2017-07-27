@@ -1,267 +1,129 @@
 # frontend-crib
 Тут будет описание
 
-  <!-- ========== HEADER ========== -->
-
-  <ul>
-    <li>
-      <a href="index.html" target="_blank" class="active">Home</a>
-    </li>
-    <li>
-      <a href="https://github.com/vald3r" target="_blank">Git</a>
-    </li>
-    <li>
-      <a href="https://codepen.io/Vald3r/" target="_blank">Codepen</a>
-    </li>
-    <li>
-      <a href="projects.html" target="_blank">Work</a>
-    </li>
-  </ul>
-
-  <!-- ========== Содержание ========== -->
-
-  <h2><small>Краткое содержание:</small></h2>
-  <ul>
-    <li>
-      <a href="#start">
-        С чего начать.
-      </a>
-    </li>
-    <li>
-      <a href="#articles">
-        Статьи.
-      </a>
-    </li>
-    <li>
-      <a href="#flexbox">
-        Flexbox
-      </a>
-    </li>
-    <li>
-      <a href="#grid">
-        Grid Layout
-      </a>
-    </li>
-    <li>
-      <a href="#codeguides">
-        Кодгайды
-      </a>
-    </li>
-    <li>
-      <a href="#progressive-enhancement">
-        Прогрессивное улучшение
-      </a>
-    </li>
-    <li>
-      <a href="#fonts">
-        Шрифты
-      </a>
-    </li>
-    <li>
-      <a href="#svg">
-        SVG
-      </a>
-    </li>
-    <li>
-      <a href="#mobile-first">
-        Mobile First
-      </a>
-    </li>
-    <li>
-      <a href="#media-queries">
-        Медиа запросы
-      </a>
-    </li>
-    <li>
-      <a href="#bem">
-        БЭМ
-      </a>
-    </li>
-    <li>
-      <a href="#git">
-        Git
-      </a>
-    </li>
-    <li>
-      <a href="#podcasts">
-        Подкасты
-      </a>
-    </li>
-    <li>
-      <a href="#books">
-        Литература
-      </a>
-    </li>
-    <li>
-      <a href="#useful">
-        Полезности
-      </a>
-    </li>
-    <li>
-      <a href="#gulp">
-        Gulp
-      </a>
-    </li>
-    <li>
-      <a href="#webpack">
-        Webpack
-      </a>
-    </li>
-    <li>
-      <a href="#minification">
-        Минификация
-      </a>
-    </li>
-    <li>
-      <a href="#ide">
-        IDE
-      </a>
-    </li>
-  </ul>
-
-
-  <!-- ========== MAIN ========== -->
-
-  <div class="container">
-    <h2 id="start">С чего начать.<br> <small>Подробно. Структурировано. Актуально.</small></h2>
-    <ul>
-      <li>
-        <a href="http://webmasters.teamdev.com" target="_blank" title="TeamDev">
-          TeamDev
-        </a>
-        <p>
-          <del>Предупреждение</del> <ins>пособие</ins> для тех, кому надо верстать.
-        </p>
-      </li>
-      <li>
-        <a href="http://krekotun.ru/ui-developer-skills" target="_blank" title="Что должен знать HTML-верстальщик?">
-          Что должен знать HTML-верстальщик?
-        </a>
-        <p>
-          В этой статье я перечислю все актуальные на сегодняшний момент знания и инструменты, которые позволят вам успешно работать в профессии и создадут базу для развития.
-        </p>
-      </li>
-      <li>
-        <a href="https://www.gitbook.com/book/melnik909/tutorial-for-beginner-front-end-developer/details" target="_blank" title="Методическое пособие по HTML-верстке для новичков">
-          Методическое пособие по HTML-верстке для новичков.
-        </a>
-        <p>
-          Данное методическое пособие содержит основополагающие знания, актуальные приемы, практические задачи и полезные советы для людей, которые только начинают делать первые шаги в HTML-верстке.
-        </p>
-      </li>
-      <li>
-        <a href="https://medium.com/russian/от-нуля-до-героя-front-enda-часть-1-f524d668f328" target="_blank" title="От нуля до героя фронтенда">
-          От нуля до героя фронтенда.
-        </a>
-        <p>
-          Часть первая.
-        </p>
-      </li>
-      <li>
-        <a href="http://blog.csssr.ru/2016/09/19/how-to-be-a-beginner-developer/" target="_blank" title="Как быть начинающим разработчиком и не сойти с ума">
-          Как быть начинающим разработчиком и не сойти с ума.
-        </a>
-        <p>
-          Узбагойтесь.
-        </p>
-      </li>
-      <li>
-        <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2F865b640d5d18" target="_blank" title="Frontend Dev: хороший, плохой, злой">
-          Frontend Dev: хороший, плохой, злой.
-        </a>
-        <p>
-          Часть 1: Хороший путь
-        </p>
-      </li>
-      <li>
-        <a href="https://htmlacademy.ru" target="_blank" title="HTML Academy">
-          HTML Academy
-        </a>
-        <p>
-          Категорически рекомендую.
-        </p>
-      </li>
-      <li>
-        <a href="https://webref.ru" target="_blank" title="webref.ru">
-          webref.ru
-        </a>
-        <p>
-          Справочники и руководства.
-        </p>
-      </li>
-      <li>
-        <a href="https://codebra.ru" target="_blank" title="codebra.ru">
-          codebra.ru
-        </a>
-        <p>
-          Курсы по HTML, CSS, JavaScript, PHP, jQuery.
-        </p>
-      </li>
-      <li>
-        <a href="https://html5book.ru" target="_blank" title="html5book.ru">
-          html5book.ru
-        </a>
-        <p>
-          Весьма толковые справочники и уроки по HTML, CSS, JS и т.д.
-        </p>
-      </li>
-      <li>
-        <a href="http://ru.html.net" target="_blank" title="html.net">
-          html.net
-        </a>
-        <p>
-          Учебники по HTML, CSS, PHP.
-        </p>
-      </li>
-      <li>
-        <a href="http://htmlbook.ru" target="_blank" title="htmlbook.net">
-          htmlbook.net
-        </a>
-        <p>
-          Ходят слухи что лучший справочник всея-руси по HTML, CSS.
-        </p>
-      </li>
-      <li>
-        <a href="https://learn.javascript.ru" target="_blank" title="Библия ЖС на русском">
-          learn.javascript.ru
-        </a>
-        <p>
-          Лучший онлайн учебник по ЖС на русском.
-        </p>
-      </li>
-      <li>
-        <a href="https://pastebin.com/3VAYADCd" target="_blank" title="pastebin">
-          Кошерная паста по теме
-        </a>
-        <p>
-           Маст рид. Некоторые представленные в ней ресурсы уже не рабочие(мб когда-нибудь разгребу и составлю свой список <del>с игрищами и блудницами</del>).
-        </p>
-      </li>
-      <br>
-      <li>
-        <a href="https://habrahabr.ru/company/netologyru/blog/327294/" target="_blank" title="Статья безумной женщины">
-          Статья какой-то безумной женщины из Нетологии.
-        </a>
-        <p>
-          Комменты доставляют, в них же и представлена более конструктивная инфа по теме.
-        </p>
-      </li>
-      <li>
-        <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2F619289ce8bae" target="_blank" title="Хорошие и плохие CSS-практики для начинающих">
-          Хорошие и плохие CSS-практики для начинающих.
-        </a>
-        <p></p>
-      </li>
-      <br>
-      <li>
-        <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2Fa916de106283" target="_blank"  title="Собеседование">
-          Собеседование.
-        </a>
-        <p>
-          Что ожидать от собеседования на должность HMTL-Верстальщик/Junior frontend программист.
-        </p>
-      </li>
-    </ul>
+<h1>С чего начать.<br><small>Подробно. Структурировано. Актуально.</small></h1>
+<ul>
+  <li>
+    <a href="http://webmasters.teamdev.com" target="_blank">TeamDev</a>
+    <p><del>Предупреждение</del> <ins>пособие</ins> для тех, кому надо верстать.</p>
+  </li>
+  <li>
+    <a href="http://krekotun.ru/ui-developer-skills" target="_blank">Что должен знать HTML-верстальщик?</a>
+    <p>В этой статье я перечислю все актуальные на сегодняшний момент знания и инструменты, которые позволят вам успешно работать в профессии и создадут базу для развития.</p>
+  </li>
+  <li>
+    <a href="https://www.gitbook.com/book/melnik909/tutorial-for-beginner-front-end-developer/details" target="_blank">Методическое пособие по HTML-верстке для новичков.</a>
+    <p>Данное методическое пособие содержит основополагающие знания, актуальные приемы, практические задачи и полезные советы для людей, которые только начинают делать первые шаги в HTML-верстке.</p>
+  </li>
+  <li>
+    <a href="https://medium.com/russian/от-нуля-до-героя-front-enda-часть-1-f524d668f328" target="_blank">От нуля до героя фронтенда.</a>
+    <p>Часть первая.</p>
+  </li>
+  <li>
+    <a href="http://blog.csssr.ru/2016/09/19/how-to-be-a-beginner-developer/" target="_blank" title="Как быть начинающим разработчиком и не сойти с ума">
+      Как быть начинающим разработчиком и не сойти с ума.
+    </a>
+    <p>
+      Узбагойтесь.
+    </p>
+  </li>
+  <li>
+    <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2F865b640d5d18" target="_blank" title="Frontend Dev: хороший, плохой, злой">
+      Frontend Dev: хороший, плохой, злой.
+    </a>
+    <p>
+      Часть 1: Хороший путь
+    </p>
+  </li>
+  <li>
+    <a href="https://htmlacademy.ru" target="_blank" title="HTML Academy">
+      HTML Academy
+    </a>
+    <p>
+      Категорически рекомендую.
+    </p>
+  </li>
+  <li>
+    <a href="https://webref.ru" target="_blank" title="webref.ru">
+      webref.ru
+    </a>
+    <p>
+      Справочники и руководства.
+    </p>
+  </li>
+  <li>
+    <a href="https://codebra.ru" target="_blank" title="codebra.ru">
+      codebra.ru
+    </a>
+    <p>
+      Курсы по HTML, CSS, JavaScript, PHP, jQuery.
+    </p>
+  </li>
+  <li>
+    <a href="https://html5book.ru" target="_blank" title="html5book.ru">
+      html5book.ru
+    </a>
+    <p>
+      Весьма толковые справочники и уроки по HTML, CSS, JS и т.д.
+    </p>
+  </li>
+  <li>
+    <a href="http://ru.html.net" target="_blank" title="html.net">
+      html.net
+    </a>
+    <p>
+      Учебники по HTML, CSS, PHP.
+    </p>
+  </li>
+  <li>
+    <a href="http://htmlbook.ru" target="_blank" title="htmlbook.net">
+      htmlbook.net
+    </a>
+    <p>
+      Ходят слухи что лучший справочник всея-руси по HTML, CSS.
+    </p>
+  </li>
+  <li>
+    <a href="https://learn.javascript.ru" target="_blank" title="Библия ЖС на русском">
+      learn.javascript.ru
+    </a>
+    <p>
+      Лучший онлайн учебник по ЖС на русском.
+    </p>
+  </li>
+  <li>
+    <a href="https://pastebin.com/3VAYADCd" target="_blank" title="pastebin">
+      Кошерная паста по теме
+    </a>
+    <p>
+       Маст рид. Некоторые представленные в ней ресурсы уже не рабочие(мб когда-нибудь разгребу и составлю свой список <del>с игрищами и блудницами</del>).
+    </p>
+  </li>
+  <br>
+  <li>
+    <a href="https://habrahabr.ru/company/netologyru/blog/327294/" target="_blank" title="Статья безумной женщины">
+      Статья какой-то безумной женщины из Нетологии.
+    </a>
+    <p>
+      Комменты доставляют, в них же и представлена более конструктивная инфа по теме.
+    </p>
+  </li>
+  <li>
+    <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2F619289ce8bae" target="_blank" title="Хорошие и плохие CSS-практики для начинающих">
+      Хорошие и плохие CSS-практики для начинающих.
+    </a>
+    <p></p>
+  </li>
+  <br>
+  <li>
+    <a href="https://exit.sc/?url=https%3A%2F%2Fmedium.com%2Fp%2Fa916de106283" target="_blank"  title="Собеседование">
+      Собеседование.
+    </a>
+    <p>
+      Что ожидать от собеседования на должность HMTL-Верстальщик/Junior frontend программист.
+    </p>
+  </li>
+</ul>
 
 <h2>Статьи</h2>
 <ul>
